@@ -1,0 +1,26 @@
+{
+  "name": "object-values",
+  "version": "0.0.0",
+  "description": "Get the values of an object",
+  "license": "MIT",
+  "main": "object-values.js",
+  "authors": [{
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  }],
+  "keywords": [
+    "object",
+    "values",
+    "obj",
+    "val",
+    "properties",
+    "browser"
+  ],
+  "ignore": [
+    ".*",
+    "test.js",
+    "component.json",
+    "package.json"
+  ]
+}
