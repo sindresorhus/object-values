@@ -1,11 +1,13 @@
 {
   "name": "object-values",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Get the values of an object",
   "license": "MIT",
   "repo": "sindresorhus/object-values",
   "main": "object-values.js",
-  "scripts": ["object-values.js"],
+  "scripts": [
+    "object-values.js"
+  ],
   "keywords": [
     "object",
     "values",
