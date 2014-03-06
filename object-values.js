@@ -1,7 +1,7 @@
 /*!
 	object-values
 	Get the values of an object
-	https://github.com/sindresorhus/object-assign
+	https://github.com/sindresorhus/object-values
 	by Sindre Sorhus
 	MIT License
 */
