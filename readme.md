@@ -1,4 +1,4 @@
-# object-values [![Build Status](https://travis-ci.org/sindresorhus/object-values.png?branch=master)](http://travis-ci.org/sindresorhus/object-values)
+# object-values [![Build Status](https://travis-ci.org/sindresorhus/object-values.svg?branch=master)](https://travis-ci.org/sindresorhus/object-values)
 
 > Get the values of an object
 
@@ -9,26 +9,20 @@ Returns an array of own enumerable property values of an object.
 
 Download [manually](https://github.com/sindresorhus/object-values/releases) or with a package-manager.
 
-#### [npm](https://npmjs.org/package/object-values)
-
-```
-npm install --save object-values
+```bash
+$ npm install --save object-values
 ```
 
-#### [Bower](http://bower.io)
-
-```
-bower install --save object-values
+```bash
+$ bower install --save object-values
 ```
 
-#### [Component](https://github.com/component/component)
-
-```
-component install sindresorhus/object-values
+```bash
+$ component install sindresorhus/object-values
 ```
 
 
-## Example
+## Usage
 
 ```js
 objectValues({foo: 0, bar: 1});
@@ -38,4 +32,4 @@ objectValues({foo: 0, bar: 1});
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
