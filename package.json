@@ -1,6 +1,6 @@
 {
   "name": "object-values",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Get the values of an object",
   "license": "MIT",
   "main": "object-values.js",

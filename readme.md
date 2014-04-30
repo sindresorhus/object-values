@@ -7,17 +7,15 @@ Returns an array of own enumerable property values of an object.
 
 ## Install
 
-Download [manually](https://github.com/sindresorhus/object-values/releases) or with a package-manager.
-
-```bash
+```sh
 $ npm install --save object-values
 ```
 
-```bash
+```sh
 $ bower install --save object-values
 ```
 
-```bash
+```sh
 $ component install sindresorhus/object-values
 ```
 
