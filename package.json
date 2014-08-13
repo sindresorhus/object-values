@@ -1,6 +1,6 @@
 {
   "name": "object-values",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Get the values of an object",
   "license": "MIT",
   "repository": "sindresorhus/object-values",
