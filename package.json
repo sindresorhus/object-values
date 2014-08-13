@@ -3,7 +3,6 @@
   "version": "0.1.2",
   "description": "Get the values of an object",
   "license": "MIT",
-  "main": "object-values.js",
   "repository": "sindresorhus/object-values",
   "author": {
     "name": "Sindre Sorhus",
@@ -17,7 +16,7 @@
     "test": "mocha"
   },
   "files": [
-    "object-values.js"
+    "index.js"
   ],
   "keywords": [
     "object",

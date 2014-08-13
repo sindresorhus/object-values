@@ -11,14 +11,6 @@ Returns an array of own enumerable property values of an object.
 $ npm install --save object-values
 ```
 
-```sh
-$ bower install --save object-values
-```
-
-```sh
-$ component install sindresorhus/object-values
-```
-
 
 ## Usage
 
@@ -30,4 +22,4 @@ objectValues({foo: 0, bar: 1});
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](http://sindresorhus.com)
