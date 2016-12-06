@@ -21,6 +21,18 @@ objectValues({foo: 0, bar: 1});
 //=> [0, 1]
 ```
 
+You can also get values recursively from nested objects
+using the `recurse` option:
+
+```js
+var nestedObj = {
+  a: 'foo',
+  b: {x: 1, y: 2}
+}
+
+objectValues(nestedObj, {recurse: true});
+//=> ['foo', 1, 2]
+```
 
 ## License
 

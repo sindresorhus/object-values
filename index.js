@@ -1,10 +1,18 @@
 'use strict';
-module.exports = function (obj) {
+module.exports = objectValues;
+
+function objectValues (obj, opts) {
+	opts = opts || {}
 	var keys = Object.keys(obj);
 	var ret = [];
 
 	for (var i = 0; i < keys.length; i++) {
-		ret.push(obj[keys[i]]);
+		var val = obj[keys[i]]
+		if (opts.recurse && val && typeof val === 'object' && Object.keys(val).length) {
+			ret = ret.concat(objectValues(val, opts));
+		} else {
+			ret.push(val);
+		}
 	}
 
 	return ret;
