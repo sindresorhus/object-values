@@ -1,7 +1,6 @@
-'use strict';
-var assert = require('assert');
-var values = require('./');
+import test from 'ava';
+import m from './';
 
-it('should get the values of an object', function () {
-	assert.deepEqual(values({foo: 'foo', bar: 'bar'}), ['foo', 'bar']);
+test(t => {
+	t.deepEqual(m({foo: 'foo', bar: 'bar'}), ['foo', 'bar']);
 });
