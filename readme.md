@@ -4,13 +4,13 @@
 
 Returns an array of own enumerable property values of an object.
 
-If you target Node.js 7 or higher, just use [`Object.values()`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Object/values) instead.
+If you target Node.js 8 or higher, just use [`Object.values()`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Object/values) instead.
 
 
 ## Install
 
 ```
-$ npm install --save object-values
+$ npm install object-values
 ```
 
 

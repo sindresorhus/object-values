@@ -1,36 +1,31 @@
 {
-  "name": "object-values",
-  "version": "1.0.0",
-  "description": "Get the values of an object",
-  "license": "MIT",
-  "repository": "sindresorhus/object-values",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "object",
-    "values",
-    "obj",
-    "val",
-    "properties",
-    "browser"
-  ],
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true
-  }
+	"name": "object-values",
+	"version": "1.0.0",
+	"description": "Get the values of an object",
+	"license": "MIT",
+	"repository": "sindresorhus/object-values",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"object",
+		"values",
+		"value",
+		"properties"
+	],
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	}
 }
