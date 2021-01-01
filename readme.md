@@ -1,4 +1,4 @@
-# object-values [![Build Status](https://travis-ci.org/sindresorhus/object-values.svg?branch=master)](https://travis-ci.org/sindresorhus/object-values)
+# object-values
 
 > Get the values of an object
 
