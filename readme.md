@@ -1,10 +1,12 @@
+Deprecated in favor of `Object.values()`.
+
+---
+
 # object-values
 
 > Get the values of an object
 
 Returns an array of own enumerable property values of an object.
-
-If you target Node.js 8 or higher, just use [`Object.values()`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Object/values) instead.
 
 
 ## Install
